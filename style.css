@@ -6,19 +6,32 @@ body {
   top: 0;
   position: fixed;
   background-color: aqua;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: brown;
 }
 
 .table {
-    border: 1px solid;
-    text-align: center;
-    font-size: larger;
+  border: 1px solid;
+  text-align: center;
+  font-size: larger;
 }
 
 main {
-    margin: 50px;
-    padding: 150px;
-    border: 100px;
-    line-height: 30px;
+  margin: 50px;
+  padding: 200px;
+  border: 100px;
+  line-height: 30px;
+  position: relative;
+}
+
+.lado-direito {
+  display: inline;
+  float: right;
+  width: 30%;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  display: inline;
+  width: 40%;
 }
