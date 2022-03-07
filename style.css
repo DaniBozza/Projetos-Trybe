@@ -8,6 +8,9 @@ body {
   background-color: aqua;
   font-family: "Courier New", Courier, monospace;
   color: brown;
+  padding: 0;
+  right: 0;
+  left: 0;
 }
 
 .table {
